@@ -1,1 +1,1 @@
-# lesson-template
+# render-deploy-static-site
