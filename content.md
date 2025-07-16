@@ -7,7 +7,13 @@ Let's deploy our static portfolio website to cloud hosting platform [Render](htt
 In this lesson we'll use [Render](https://render.com) to deploy our portfolio website so it's available 24/7. By the end of this lesson your portfolio will be available at a url you can share with friends.
 
 <aside class="tip">
-  <strong>What does "deploy" mean?</strong> Deploying a website means uploading your files to a public server so others can view it online. Platforms like Render host your files in the cloud—so they’re always available, even when your computer is off.
+  <strong>What does "deploy" mean?</strong>
+  Deploying a website means uploading your files to a public server so others can view it online. Platforms like Render host your files in the cloud, so they're always available, even when your computer is off.
+</aside>
+
+<aside class="tip">
+  <strong>What is the cloud?</strong>
+  The cloud refers to powerful computers (servers) you can access over the internet. Instead of hosting your website on your personal machine (which shuts down when you do) the cloud keeps it running 24/7. This means your portfolio is always online and shareable.
 </aside>
 
 ## Sign Up For Render
