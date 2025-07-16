@@ -31,7 +31,7 @@ Now set the name of your static site. This name will be used to create your url.
 Now we need to tell render where to find our code. Since we put our `index.html` file in the project root, we'll enter `./`.
 
 <aside class="tip">
-In UNIX systems, <code>.<code> is used to represent the current directory (or folder). <code>/</code> is used to represent a folder. Together, <code>./</code> means all files in the current directory (folder).
+  In UNIX systems, <code>.</code> is used to represent the current directory (or folder). <code>/</code> is used to represent a folder. Together, <code>./</code> means all files in the current directory (folder).
 </aside>
 
 ![configure publish directory](assets/publish-directory.png)
