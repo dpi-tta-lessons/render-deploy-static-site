@@ -1,6 +1,6 @@
-# Deploying a static web site on Render
+# Deploying a Static Website on Render
 
-Let's deploy our static portfolio page to cloud hosting platform [Render](https://render.com).
+Let's deploy our static portfolio website to cloud hosting platform [Render](https://render.com).
 
 ## Goals
 
@@ -14,17 +14,17 @@ Head over to [Render](https://render.com) and click "get started" to create an a
 
 ## Create a New Static Site
 
-Now click on '+ New' -> 'Static Site' to open the [New Static Site form](https://dashboard.render.com/static/new).
+Now click on '+ New' -> 'Static Site' to open the [New Static Site](https://dashboard.render.com/static/new) form.
 
 ![click new static site](assets/render-new-static-site.png)
 
 <!-- TODO: add brief on ftp, what happens when we connnect to github -->
 
-You'll need to connect your GitHub account to render so they can access your repository.
+You'll need to connect your GitHub account to Render so they can access your repository.
 
 ![select git provider](assets/git-provider.png)
 
-Now set the name of your static site. This name will be used to create your url. Something like `app-name.onrender.com`.
+Now set the name of your static site. This name will be used to create your url. If you enter `app-name`, your site will be live at `app-name.onrender.com`.
 
 ![configure name](assets/render-name.png)
 
@@ -50,6 +50,6 @@ You'll notice that Render "clones" (or copies) your code from GitHub then upload
 
 ## Custom Domains
 
-In the next lesson we'll dive into domains. If you'd like to purchase your own domain you can configure it in the settings tab.
+In the next lesson we'll dive into domains. If you purchase your own domain you can configure it in the settings tab.
 
 ![configure custom domains](assets/render-custom-domains.png)
