@@ -34,11 +34,6 @@ You'll need to connect your GitHub account to Render so they can access your rep
 
 ![select git provider](assets/git-provider.png)
 
-<aside class="tip">
-  <strong>What happens when you connect GitHub?</strong>
-  In the past, developers used FTP (File Transfer Protocol) to manually upload website files to a server. By connecting GitHub, Render skips that step—every time you push changes to your repository, Render automatically grabs the latest code and redeploys your site for you. It’s like having automated FTP, but way smarter.
-</aside>
-
 Now set the name of your static site. This name will be used to create your url. If you enter `app-name`, your site will be live at `app-name.onrender.com`.
 
 ![configure name](assets/render-name.png)
@@ -62,6 +57,10 @@ Once Render starts to deploy your site, you can monitor its progress in the even
 ![events logs](assets/render-events.png)
 
 You'll notice that Render "clones" (or copies) your code from GitHub then uploads it to the server. Static websites are pretty simple. Since this is connected to your GitHub repo, anytime you make a commit to 'main', Render will detect the change and start a new deploy automatically.
+
+<aside class="tip">
+  In the past, developers used FTP (File Transfer Protocol) to manually upload website files to a server. By connecting GitHub, Render skips that step. Every time you push changes to your repository, Render automatically grabs the latest code and redeploys your site for you. It’s like having automated FTP, but way smarter.
+</aside>
 
 ## Custom Domains
 
